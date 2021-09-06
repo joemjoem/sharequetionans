@@ -1,0 +1,128 @@
+@import 'navbar.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robotoo', sans-serif;
+}
+
+/* main */
+/* container */
+.container{
+  padding: 0 140px 0 140px;
+  margin-top: 100px;
+}
+
+/* judul */
+.judul{
+  width: 700px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.judul h2{
+  color: #4E4E4E;
+}
+
+/* jumlah pengguna */
+.jumlah-user{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 0 auto;
+}
+
+.asal{
+  margin-left: 20px;
+}
+
+.pengguna, .asal{
+  display: flex;
+}
+
+.pengguna img, .asal img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.pengguna span, .asal span{
+  color: #B5B5B5;
+}
+
+/* deskripsi */
+.deskripsi{
+  margin-top: 40px;
+}
+.deskripsi img{
+  width: 400px;
+}
+
+.deskripsi .desk{
+  display: flex;
+  width: 1000px;
+  margin: 20px auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deskripsi .penjelasan{
+  width: 400px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.deskripsi .penjelasan p{
+  color: #B5B5B5;
+  font-size: 20px;
+}
+
+/* daftar teknologi */
+.teknologi{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.judul-teknologi p{
+  color: #B5B5B5;
+  margin-top: 10px;
+}
+
+.teknologi .daftar{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+
+.daftar .kotak img{
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.kotak p{
+  color: #B5B5B5; 
+}
+
+/* partner */
+.partner{
+  margin-top: 40px;
+}
+
+.judul-partner{
+  text-align: center;
+}
+.daftar-partner{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+
+.daftar-partner img{
+  width: 100px;
+  height: 70px;
+  margin: 30px 20px 0 20px;
+}
