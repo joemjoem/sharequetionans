@@ -78,7 +78,7 @@
 
 /* daftar teknologi */
 .teknologi{
-  margin-top: 20px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@
 
 /* partner */
 .partner{
-  margin-top: 40px;
+  margin-top: 200px;
 }
 
 .judul-partner{
@@ -125,4 +125,60 @@
   width: 100px;
   height: 70px;
   margin: 30px 20px 0 20px;
+}
+
+/* gabung */
+.gabung{
+  margin-top: 200px;
+}
+.isi-gabung{
+  display: flex;
+  width: 900px;
+  margin: 20px auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.isi-gabung img{
+  width: 400px;
+}
+
+.isi-gabung .teks h2{
+  font-size: 40px;
+}
+
+.isi-gabung .teks a{
+  color: white;
+  text-decoration: none;
+  background-color: #0096C7;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* footer */
+footer{
+  background-color: #E6ECEB;
+  display: flex;
+  padding: 0 100px 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.logo img{
+  width: 70px;
+}
+
+footer p{
+  color: #626262;
+}
+
+footer .sosmed img{
+  width: 20px;
+  margin-left: 10px;
 }
