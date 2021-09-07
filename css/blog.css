@@ -36,6 +36,27 @@
   color: #0096C7;
 }
 
+.daftar-hastag .search{
+  border: 2px solid #929292;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.daftar-hastag .search img{
+  width: 15px;
+  margin-right: 5px;
+}
+
+.daftar-hastag input{
+  border: none;
+  height: 30px;
+}
+
 .blog{
   width: 900px;
   height: 1141px;
