@@ -1,0 +1,21 @@
+/* footer */
+footer{
+  background-color: #E6ECEB;
+  display: flex;
+  padding: 0 100px 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.logo img{
+  width: 70px;
+}
+
+footer p{
+  color: #626262;
+}
+
+footer .sosmed img{
+  width: 20px;
+  margin-left: 10px;
+}

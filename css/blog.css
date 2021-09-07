@@ -1,0 +1,125 @@
+@import 'navbar.css';
+@import 'footer.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robotoo', sans-serif;
+}
+
+/* container */
+.container{
+  margin-top: 100px;
+  padding: 0 100px 50px 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  width: 245px;
+  border: 2px solid #929292;
+  border-radius: 5px;
+  padding: 50px 20px 10px 20px;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.info .daftar-hastag{
+  border-top: 1px solid #000000;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.info .daftar-hastag h4{
+  margin-bottom: 10px;
+  color: #0096C7;
+}
+
+.blog{
+  width: 900px;
+  height: 1141px;
+  border-radius: 5px;
+  padding: 50px 30px 10px 30px;
+  box-sizing: border-box;
+  border: 2px solid #929292;
+}
+
+.judul{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #4E4E4E;
+}
+
+.judul img{
+  width: 53px;
+  margin-right: 10px;
+}
+
+.daftar-blog{
+  border-top: 1px solid #000000;
+  padding: 20px 0 30px 0;
+  box-sizing: border-box;
+  overflow: scroll;
+  height: 900px;
+  
+}
+
+.daftar-blog .kotak-blog{
+  width: 747px;
+  display: flex;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.daftar-blog .kotak-blog .gambar-blog{
+  margin-right: 10px;
+}
+
+.daftar-blog .kotak-blog .text-blog h2{
+  margin-bottom: 10px;
+}
+
+.daftar-blog .kotak-blog .text-blog p{
+  color: #B6B6B6;
+  text-align: justify;
+}
+
+.daftar-blog .kotak-blog .text-blog .hastag{
+  display: flex;
+  margin-top: 20px;
+}
+
+.daftar-blog .kotak-blog .text-blog .hastag p{
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #0096C7;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
+.fitur-pencapaian{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 75px;
+}
+
+.fitur-dilihat, .fitur-komen{
+  display: flex;
+  margin-right: 20px;
+}
+
+.fitur-dilihat img, .fitur-komen img, .fitur-bookmark{
+  width: 25px;
+  height: 18px;
+  margin-right: 10px;
+}
