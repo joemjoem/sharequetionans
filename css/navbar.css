@@ -1,5 +1,6 @@
 /* buat navbar */
 nav{
+  max-width: 1349px;
   background: #0096C7;
   padding: 0 100px 0 100px;
   box-sizing: border-box;

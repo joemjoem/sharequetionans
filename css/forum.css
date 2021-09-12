@@ -18,9 +18,10 @@
   display: flex;
   justify-content: space-between;
 }
+/* akhir container */
 
-/* blog */
-.blog{
+/* forum */
+.forum{
   width: 900px;
   height: 1200px;
   border-radius: 5px;
@@ -41,7 +42,7 @@
   margin-right: 10px;
 }
 
-.daftar-blog{
+.daftar-forum{
   border-top: 1px solid #000000;
   padding: 20px 0 30px 0;
   box-sizing: border-box;
@@ -50,8 +51,8 @@
   
 }
 
-.daftar-blog .kotak-blog{
-  width: 747px;
+.daftar-forum .kotak-forum{
+  width: 600px;
   display: flex;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
@@ -61,25 +62,18 @@
   margin-top: 40px;
 }
 
-.daftar-blog .kotak-blog .gambar-blog{
-  margin-right: 10px;
-}
-
-.daftar-blog .kotak-blog .text-blog h2{
+.daftar-forum .kotak-forum .text-forum h2{
   margin-bottom: 10px;
+  font-size: 28px;
+  color: #1F1F1F;
 }
 
-.daftar-blog .kotak-blog .text-blog p{
-  color: #B6B6B6;
-  text-align: justify;
-}
-
-.daftar-blog .kotak-blog .text-blog .hastag{
+.daftar-forum .kotak-forum .text-forum .hastag{
   display: flex;
   margin-top: 20px;
 }
 
-.daftar-blog .kotak-blog .text-blog .hastag p{
+.daftar-forum .kotak-forum .text-forum .hastag p{
   width: 100px;
   height: 38px;
   line-height: 38px;
@@ -90,22 +84,47 @@
   margin-right: 10px;
 }
 
-.fitur-pencapaian{
+.bawah-kotak, .penanya, .fitur-pencapaian, .fitur-dilihat, .fitur-komen{
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  height: 75px;
+  align-items: center;
 }
 
-.fitur-dilihat, .fitur-komen{
-  display: flex;
-  margin-right: 20px;
+.bawah-kotak{
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.bawah-kotak .penanya img{
+  margin-right: 10px;
 }
 
 .fitur-dilihat img, .fitur-komen img, .fitur-bookmark{
   width: 25px;
   height: 18px;
   margin-right: 10px;
+}
+
+.fitur-pencapaian{
+  justify-content: space-between;
+}
+
+.fitur-dilihat, .fitur-komen{
+  margin-right: 20px;
+}
+
+.kotak-penjelasan{
+  border-right: 1px solid #929292;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+.kotak-jml-jawaban{
+  box-sizing: border-box;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* halaman */
@@ -146,6 +165,8 @@
   line-height: 30px;
 }
 
+
+
 .btn-next{
   width: 60px;
   height: 30px;
@@ -161,3 +182,7 @@
   color: white;
   line-height: 30px;
 }
+
+
+
+

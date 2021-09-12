@@ -1,0 +1,177 @@
+@import 'navbar.css';
+@import 'footer.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robotoo', sans-serif;
+}
+
+/* container */
+.container{
+  max-width: 1349px;
+  width: 1349px;
+  margin-top: 100px;
+  padding: 0 100px 50px 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+/* akhir container */
+
+/* pembungkus penjelasan */
+.pembungkus-penjelasan{
+  width: 300px;
+  background-color: white;
+  filter: drop-shadow(3px 2px 3px rgba(0,0,0, 0.15)) drop-shadow(-1px 0 3px rgba(0,0,0, 0.15));
+  border-radius: 5px;
+  padding: 50px 20px 10px 20px;
+  box-sizing: border-box;
+}
+
+.pembungkus-penjelasan .judul{
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.pembungkus-penjelasan .penjelasan ul{
+  list-style: none;
+}
+
+.pembungkus-penjelasan .penjelasan ul li{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pembungkus-inputan{
+  width: 820px;
+  padding: 50px 30px 10px 30px;
+  box-sizing: border-box;
+}
+
+.pembungkus-inputan .judul{
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.judul-forum{
+  margin-bottom: 20px;
+}
+
+.judul-forum h4, .judul-forum p{
+  margin-bottom: 10px;
+}
+
+.judul-forum p{
+  color: #393939;
+}
+
+.judul-forum input{
+  width: 100%;
+  height: 30px;
+}
+
+.hastag-forum{
+  margin-bottom: 20px;
+}
+
+.hastag-forum h4, .hastag-forum p{
+  margin-bottom: 10px;
+}
+
+.hastag-forum p{
+  color: #393939;
+}
+
+.hastag-forum input{
+  width: 100%;
+  height: 30px;
+}
+
+/* pembungkus textarea */
+.pembungkus-textarea{
+  overflow: hidden;
+  border: 1px solid #4F4F4F;
+  border-radius: 5px;
+}
+
+.pembungkus-fitur{
+  border-bottom: 1px solid #4F4F4F;
+}
+
+.pembungkus-textarea .fitur-textarea{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.pembungkus-textarea .fitur-textarea img{
+  margin-right: 20px;
+}
+
+.pembungkus-textarea textarea{
+  resize: none;
+  width: 100%;
+  height: 300px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* konfirmasi */
+.komfirmasi{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.komfirmasi p{
+  margin-left: 10px;
+}
+
+/* button */
+.button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-prev{
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 2px;
+  background-color: #0096C7;
+
+}
+
+.btn-prev a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.btn-next{
+  width: 60px;
+  background-color: #F42B2B;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 0 2px;
+}
+
+.btn-next a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+
+
+
