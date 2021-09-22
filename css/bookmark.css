@@ -1,0 +1,198 @@
+@import 'navbar.css';
+@import 'footer.css';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Robotoo', sans-serif;
+}
+
+/* container */
+.container{
+  max-width: 1349px;
+  width: 1349px;
+  margin-top: 100px;
+  padding: 0 100px 50px 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* pembungkus identitas */
+.pembungkus-identitas{
+  width: 300px;
+  background-color: white;
+  /* filter: drop-shadow(3px 2px 3px rgba(0,0,0, 0.15)) drop-shadow(-1px 0 3px rgba(0,0,0, 0.15)); */
+  /* border-radius: 5px; */
+  border-right: 1px solid #B6B6B6;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nama-status{
+  text-align: left;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.gambar-identitas img{
+  width: 200px;
+}
+
+.pembungkus-sosmed{
+  text-align: left;
+}
+
+.pembungkus-sosmed img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.github, .facebook, .instagram{
+  display: flex;
+  align-items: center;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.pembungkus-button{
+  margin-top: 10px;
+}
+
+.pembungkus-identitas button{
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: #0096C7;
+  color: white;
+  border-radius: 5px;
+} 
+
+/* daftar bookmark */
+.pembungkus-bookmark .judul{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #4E4E4E;
+}
+
+.pembungkus-bookmark .judul .gambar-judul img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.kotak-blog{
+  width: 747px;
+  display: flex;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.kotak-blog .gambar-blog{
+  margin-right: 10px;
+}
+
+.kotak-blog .text-blog h2{
+  margin-bottom: 10px;
+}
+
+.kotak-blog .text-blog p{
+  color: #B6B6B6;
+  text-align: justify;
+}
+
+.kotak-blog .text-blog .hastag{
+  display: flex;
+  margin-top: 20px;
+}
+
+.kotak-blog .text-blog .hastag p{
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #0096C7;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
+.fitur-pencapaian{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 75px;
+}
+
+.fitur-dilihat, .fitur-komen{
+  display: flex;
+  margin-right: 20px;
+}
+
+.fitur-dilihat img, .fitur-komen img, .fitur-bookmark{
+  width: 25px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+/* halaman */
+.no-halaman{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nomor{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+/* button */
+.button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-prev{
+  width: 60px;
+  height: 30px;
+  border: 1px solid #B6B6B6;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-prev a{
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+}
+
+.btn-next{
+  width: 60px;
+  height: 30px;
+  border: 1px solid #B6B6B6;
+  background-color: #0096C7;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.btn-next a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
